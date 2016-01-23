@@ -13,6 +13,9 @@ public class Test {
 		driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
+		
+		driver.get("http://yahoo.com");
+		driver.manage().window().maximize();
 
 	}
 
